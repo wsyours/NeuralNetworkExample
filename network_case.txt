@@ -1,0 +1,82 @@
+Case:
+While playing video on phone , define phone behaviour from input neurons to avoid running out of battery and internet traffic.
+
+Input neurons :
+
+Film duration
+Battery charge level
+Internet traffic remaining
+Battery consumption
+Internet traffic consumption
+Environment temperature
+
+Output neurons:
+
+Normal working
+Reduce video quality
+Turn on battery economy mode
+Turn on battery economy mode and reduce video quality
+
+
+Example : 
+
+0.1 - Film duration ,1 - Battery charge level,1 - Internet traffic remaining,0.1 - Battery consumption
+,0.1 - Internet traffic consumption, 1 - Environment temperature
+1 - Normal working, 0 - Reduce video quality, 0 - Turn on battery economy mode, 0 - Turn on battery economy mode and reduce video quality
+
+
+24 6 4
+
+0.1 1 1 0.1 0.1 1
+1 0 0 0
+0.3 0.7 0.8 0.3 0.2 0.8
+1 0 0 0
+0.4 0.8 0.7 0.2 0.25 0.7
+1 0 0 0
+0.5 0.6 0.6 0.4 0.3 0.6
+1 0 0 0
+0.7 0.5 0.5 0.5 0.4 0.9
+1 0 0 0
+1 0.4 0.6 0.1 0.5 0.5
+1 0 0 0
+0.1 0.1 0.5 0.1 0.1 0.1
+0 1 0 0
+0.3 0.2 0.4 0.3 0.4 0.3
+0 1 0 0
+0.5 0.4 0.3 0.5 0.7 0.5
+0 1 0 0
+0.7 0.6 0.4 0.6 0.8 0.6
+0 1 0 0
+0.9 0.8 0.2 0.8 0.9 0.8
+0 1 0 0
+1 1 0.1 1 1 1
+0  1 0 0
+0.1 0.5 1 0.1 0.5 0.1
+0 0 1 0
+0.3 0.4 0.9 0.3 0.3 0.1
+0 0 1 0
+0.5 0.3 0.8 0.5 0.2 0.4
+0 0 1 0
+0.8 0.2 0.5 0.7 0.1 0.3
+0 0 1 0
+0.9 0.1 0.3 0.8 0.05 0.2
+0 0 1 0
+1 0.05 0.1 1 0.3 0.1
+0 0 1 0
+0.1 0.5 0.5 0.1 0.1 0.5
+0 0 0 1
+0.2 0.4 0.4 0.2 0.3 0.4
+0 0 0 1
+0.4 0.3 0.3 0.3 0.5 1
+0 0 0 1
+0.6 0.2 0.2 0.35 0.6 1
+0 0 0 1
+0.8 0.1 0.1 0.4 0.8 1
+0 0 0 1
+1 0.1 0.05 0.5 1 1
+0 0 0 1
+
+
+
+
+
